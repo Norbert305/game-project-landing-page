@@ -17,6 +17,7 @@ const Home = () => {
 							present and future are here
 							nooooowwwwwwwwwwwww!!!!!!!!!!
 						</p>
+						{/* create html forms for sign up and login followed by scroll images and hr line deviders. use road bros as example.  */}
 					</article>
 				</section>
 			</div>
