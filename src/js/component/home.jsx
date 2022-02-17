@@ -28,13 +28,13 @@ const Home = () => {
 							<a
 								className="nav-link active"
 								aria-current="page"
-								href="#">
+								href="#home">
 								Home
 							</a>
-							<a className="nav-link" href="#">
+							<a className="nav-link" href="#gamesOfYear">
 								Games of the year
 							</a>
-							<a className="nav-link" href="#">
+							<a className="nav-link" href="#futureGames">
 								Future Games
 							</a>
 							<a className="nav-link" href="#">
@@ -47,7 +47,7 @@ const Home = () => {
 					</div>
 				</div>
 			</nav>
-			<div classNameName="game1">
+			<div classNameName="game1" id="home">
 				<section>
 					<article>
 						<p>
@@ -127,7 +127,7 @@ const Home = () => {
 			</div>
 			<h2
 				className="gamesOfYear"
-				id="gamesOfYear"
+				id="futureGames"
 				style={{ color: "wheat" }}>
 				Future Games!!!
 			</h2>
@@ -140,7 +140,39 @@ const Home = () => {
 					<div className="overflow col-md-6">
 						<img
 							src="https://images.pushsquare.com/2d620a81eab25/gotham-knights-ps5-playstation-5.large.jpg"
-							className="bat-girl"
+							className="images"
+						/>
+					</div>
+				</div>
+			</div>
+			<br />
+			<br />
+			<div className="future-games big-card">
+				<div className="row g-0">
+					<div className="overflow col-md-6">
+						<img
+							src="https://www.pcgamesn.com/wp-content/uploads/2020/08/black-myth-wukong.jpg"
+							className="images"
+						/>
+					</div>
+					<div className="overflow col-md-6 card">
+						<h1>Black Myth Wukong!!!</h1>
+						<p>Comming out soon!!!</p>
+					</div>
+				</div>
+			</div>
+			<br />
+			<br />
+			<div className="future-games big-card">
+				<div className="row g-0">
+					<div className="overflow col-md-6 card">
+						<h1>Forspoken!!!</h1>
+						<p>Comming out this year!!!</p>
+					</div>
+					<div className="overflow col-md-6">
+						<img
+							src="https://www.psu.com/wp/wp-content/uploads/2021/12/Forspoken-Will-Be-A-PS5-Console-Exclusive-For-2yrs.jpg"
+							className="images"
 						/>
 					</div>
 				</div>

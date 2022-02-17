@@ -13,6 +13,7 @@
 
 
 
+
 html body {
     background-image: url("https://cdn.vox-cdn.com/thumbor/rfvqzM4bkPZ_Jfe6sXIwIMI3cFs=/0x0:2400x1600/1200x800/filters:focal(0x1216:384x1600)/cdn.vox-cdn.com/uploads/chorus_image/image/55015003/playstation_logo_buttons_photo_2400.0.jpg");
     width: 100%;
@@ -24,6 +25,8 @@ html body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+
 
 section {
     width: 80%;
@@ -57,18 +60,21 @@ article p{
     color: white;
     text-align: center;
     padding: 250px 0;
+
 }
 
 .card p {
     font-size: 25px; 
 }
-
+/* 
 .big-card:hover {
     box-shadow: 0px 0px 200px 50px rgb(51, 51, 51);
     transition: all 0.3s ease-in-out; 
- }
+ } */
 
-
+.images {
+    height: 720px;
+}
  
 
 
