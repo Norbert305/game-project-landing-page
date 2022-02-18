@@ -80,10 +80,22 @@ article p{
 
 .about {
     background-color: white;
-    width: 500px;
+    width: 700px;
     height: 300px;
     margin: 0 auto;
     border: solid darkblue 2px;
+    box-shadow: 10px 5px 5px lightblue;
+}
+
+.about p {
+    padding: 40px 0;
+}
+
+ul li {
+    color: white;
+    display: inline-block;
+    width: 80px;
+    font-size: large;
 }
 
 
