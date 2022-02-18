@@ -183,6 +183,24 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+
+			<div>
+				<h2
+					className="gamesOfYear"
+					id="gamesOfYear"
+					style={{ color: "wheat" }}>
+					About Us!!
+				</h2>
+			</div>
+			<div className="about">
+				<h1>Just Sit Back and Enjoy the Show!!</h1>
+				<p>All we do is blog about our favorite video games!!!</p>
+				<h2>Please give us some feed back!!</h2>
+				<p>
+					In the end!! Let us know how you feel!! Our information will
+					be at the bottom!! Please contact us below!!
+				</p>
+			</div>
 		</div>
 	);
 };

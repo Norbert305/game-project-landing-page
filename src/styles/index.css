@@ -35,6 +35,7 @@ section {
     background-color: white;
     text-align: center;
     font-weight: 700;
+    border: solid 2px darkblue;
 }
 
 article p{
@@ -76,6 +77,14 @@ article p{
     height: 720px;
 }
  
+
+.about {
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border: solid darkblue 2px;
+}
 
 
 
